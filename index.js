@@ -25,7 +25,7 @@ async function getPrice(cryptoCurrency, baseCurrency) {
 
 /**
  * 
- * @param {*} coinSymbol the symbol of the currency you want to see the price. Make sure it's an id from our supported coin or fron coingecko. an e.g is bitcoin
+ * @param {*} coinSymbol the symbol of the currency you want to see the price. Make sure it's an id from our supported coin or fron coingecko. an e.g is bitcoin. Here is the endpoint https://api.coingecko.com/api/v3/coins/list
  * @param {*} localRatePerUSD in case you want to enter the rate manually or set the rate by yourself you can set it with this parameter
  * @param {*} localCurrency here you enter your localcurrency symbol with USD as a prefix, for example for NGN you will enter USDNGN
  * @returns this function returns a numberic value or an error.
