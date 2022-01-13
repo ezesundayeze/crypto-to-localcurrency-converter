@@ -3,22 +3,10 @@
 ## Functions
 
 <dl>
-<dt><a href="#getPrice">getPrice(cryptoCurrency, baseCurrency)</a> ⇒</dt>
 <dd></dd>
 <dt><a href="#getLocalCurrencyPrice">getLocalCurrencyPrice(coinSymbol, localRatePerUSD, localCurrency)</a> ⇒</dt>
 <dd></dd>
 </dl>
-
-<a name="getPrice"></a>
-
-## getPrice(cryptoCurrency, baseCurrency) ⇒
-**Kind**: global function  
-**Returns**: the exchange rate value  
-
-| Param | Description |
-| --- | --- |
-| cryptoCurrency | is the cryptocurrency you intend to convert e.g bitcoin |
-| baseCurrency | is the fiat currency you intend to compare it's price with, e.g USD |
 
 <a name="getLocalCurrencyPrice"></a>
 
